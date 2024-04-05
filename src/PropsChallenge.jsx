@@ -1,4 +1,4 @@
-import { getImageUrl } from './utils.js';
+import { getImageUrl } from './data/utils.js';
 
 function Profile({
   name,
@@ -33,7 +33,7 @@ function Profile({
   )
 }
 
-export default function Gallery() {
+export default function PropChallenge() {
   return (
     <div>
       <h1>Notable Scientists</h1>
