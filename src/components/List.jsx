@@ -1,5 +1,5 @@
-import { people } from "./data/people";
-import { getImageUrl } from "./data/utils.js";
+import { people } from "../data/people.js";
+import { getImageUrl } from "../data/utils.js";
 
 export default function List() {
     const listItems = people.map(person => 
